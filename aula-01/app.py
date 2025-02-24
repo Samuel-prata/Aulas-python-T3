@@ -5,23 +5,23 @@ você pode ignorar tudo aqui
 """
 
 # tipo numerico inteiro = <class 'int'>
-# idade_do_samuca = 23
+idade_do_samuca = 23
 # # tipo numerico real = <class 'float'>
-# altura_do_samuca = 1.89
+altura_do_samuca = 1.89
 # # Tipo textual -> string = <class 'str'>
-# mensagem = 'Você não deu o Olá, mundo para quebrar a maldição' 
+mensagem = 'Você não deu o Olá, mundo para quebrar a maldição' 
 
 
 # # print() -> Imprimir no console
 # # type() -> Mostrar o tipo de dado inserido na variável
-# print(type(idade_do_samuca))
-# print(type(altura_do_samuca))
-# print(type(mensagem))
+print(type(idade_do_samuca))
+print(type(altura_do_samuca))
+print(type(mensagem))
 
 # input() -> Receber os dados pelo console
-# nome = input('Qual é o seu nome? ')
+nome = input('Qual é o seu nome? ')
 
-# print(f'Seja bem vindo {nome}') # fstring -> format string
+print(f'Seja bem vindo {nome}') # fstring -> format string
 
 
 numero1 = int(input('Digite o primeiro numero: '))
