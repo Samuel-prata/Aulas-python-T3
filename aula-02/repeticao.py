@@ -5,11 +5,11 @@ FOR E O WHILE
 palavra= 'O Vai na Web é demais!!!'
 
 
-# for i in palavra:
-#     print(i)
+for i in palavra:
+    print(i)
 
-# for numero in range(1, 11): # um intervalo de numeros
-#     print(numero)
+for numero in range(1, 11): # range() -> Um intervalo de números
+    print(numero)
 
 numero = 0
 while numero <=10:
